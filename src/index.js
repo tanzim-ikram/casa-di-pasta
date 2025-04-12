@@ -3,6 +3,8 @@ import "./style.css";
 import { loadHome } from "./home";
 import { loadAbout } from "./about";
 import { loadMenu } from "./menu";
+import { loadContact } from "./contact";
+import { loadReserve } from "./reserve";
 
 function clearContent() {
     document.getElementById("content").innerHTML = "";
@@ -27,22 +29,28 @@ function initializeWebsite() {
     });
 
     document.getElementById("menu").addEventListener("click", () => {
-      clearContent();
-      loadMenu();
-      setActiveTab("menu");
+        clearContent();
+        loadMenu();
+        setActiveTab("menu");
     });
 
     document.getElementById("about").addEventListener("click", () => {
-      clearContent();
-      loadAbout();
-      setActiveTab("about");
+        clearContent();
+        loadAbout();
+        setActiveTab("about");
     });
 
-    // document.getElementById("contact").addEventListener("click", () => {
-    //   clearContent();
-    //   loadContact();
-    //   setActiveTab("contact");
-    // });
+    document.getElementById("contact").addEventListener("click", () => {
+        clearContent();
+        loadContact();
+        setActiveTab("contact");
+    });
+
+    document.getElementById("reserve").addEventListener("click", () => {
+        clearContent();
+        loadReserve();
+        setActiveTab("reserve");
+    });
 }
 
 window.addEventListener("DOMContentLoaded", initializeWebsite);

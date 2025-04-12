@@ -243,3 +243,97 @@ footer a:hover {
     color: #ccc;
     margin-top: 2rem;
 }
+
+/* Contact Page */
+.contact {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffd700;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #f2f2f2;
+}
+
+.contact-info {
+    margin-top: 1.5rem;
+}
+
+.contact-info a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Reserve Page */
+.reserve {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    color: white;
+}
+
+.reserve h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffd700;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.reservation-form label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+    padding: 0 0.7rem 0.7rem;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: white;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.reservation-form input:focus,
+.reservation-form textarea:focus {
+    border-color: #ffd700;
+}
+
+.reservation-form button {
+    background-color: #ffd700;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.reservation-form button:hover {
+    opacity: 0.85;
+}
