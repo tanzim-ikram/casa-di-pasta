@@ -23,13 +23,13 @@ export function loadHome() {
   // Tagline
   const tagline = document.createElement("h2");
   tagline.classList.add("tagline");
-  tagline.textContent = "A Symphony of Flavor and Elegance";
+  tagline.textContent = "Where Tradition Meets Taste";
 
   // Description
   const description = document.createElement("p");
   description.classList.add("description");
   description.innerHTML  =
-    "Where culinary artistry meets timeless ambiance. <br> Join us for an unforgettable dining experience rooted <br> in passion, precision, and hospitality.";
+    '<p>Step into Casa di Pasta, where every dish tells a story of Italian heritage and heart. <br/> From handcrafted pastas to rich, rustic flavors, we offer more than just a <br/> meal — we serve a timeless experience of warmth, refinement, and <br/> unforgettable taste.</p>';
 
   // Menu Button
   const bookBtn = document.createElement("button");
